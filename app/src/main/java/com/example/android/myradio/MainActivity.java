@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         View statusLayout = findViewById(R.id.music_status_main);
         Button btn = (Button)statusLayout.findViewById(R.id.btn_go_to_player);
 

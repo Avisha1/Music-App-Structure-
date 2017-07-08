@@ -13,7 +13,6 @@ public class PlayerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_player);
 
-
         View viewStatus = findViewById(R.id.music_status_player);
         Button btnDownload = (Button)viewStatus.findViewById(R.id.btn_download_song);
 
