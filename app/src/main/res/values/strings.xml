@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Radio</string>
+    <string name="payment">Payment</string>
+    <string name="player">Player</string>
+    <string name="search">Search</string>
+    <string name="search_artist">search artist</string>
+    <string name="put_artist_or_band_name">Put artist or band name</string>
+    <string name="artist_name">Artist: Bon Jobi</string>
+    <string name="album_name">Album: Slippery When Wet</string>
+    <string name="song_name">Song: Living on a prayer</string>
+
+    <string name="main_activity_exp">EXPLANATION: In this activity user can see the list of channels. each chanel represented by chosen band/artist,
+    and random music will be played according to the chosen artist\'s genre. At the bottom there is a search button that leads to search activity and music status layout that will be shown in all Activities.</string>
+    <string name="search_activity_exp">EXPLANATION: In this activity user can search through different music bands and artists from a list and choose one or more to be represented in main activity as a new channels.</string>
+    <string name="player_activity_exp">EXPLANATION: A player activity to be able to rate the current song with like\dislike buttons, and next song and play/pause buttons,
+        along with download button that will take the user to payment activity</string>
+    <string name="payment_activity_exp">EXPLANATION: In this activity user can pay and download the song or album.
+    The API that can handle it will be MPL (PayPal Mobile Payment Libraries), user will choose between song or an album and then presses the pay button,
+    Then all magic of authentication, registration and payments will be done from PayPal website which the user will be transferred to</string>
+
+</resources>
